@@ -9,8 +9,7 @@ menu for ios
 
 [![AlexKalinkin.com](https://github.com/ober01/SBMSoupBubbleMenu/blob/master/ScreenShot/logoA.png)](http://www.alexkalinkin.com)
 
-My site AlexKalinkin.com
-
+My site - [AlexKalinkin.com](http://www.alexkalinkin.com)
 
 ## License
 
