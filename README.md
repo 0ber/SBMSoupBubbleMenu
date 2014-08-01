@@ -31,7 +31,7 @@ SBMSoupBubbleMenu *soupBubbleMenu = [[SBMSoupBubbleMenu alloc] initWithIconNames
                                                                           inView:self.view];
 soupBubbleMenu.delegate = self;
     
-// show menu
+// Present the menu
 [_soupBubbleMenu show];
 ```
 
