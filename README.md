@@ -35,7 +35,7 @@ soupBubbleMenu.delegate = self;
 [_soupBubbleMenu show];
 ```
 
-Delegate methods
+Delegate methods:
 ``` objective-c
 - (void)soupBubbleMenuDidShowWithBubbleMenu:(SBMSoupBubbleMenu *)bubbleMenu;
 - (void)soupBubbleMenuDidHideWithBubbleMenu:(SBMSoupBubbleMenu *)bubbleMenu;
