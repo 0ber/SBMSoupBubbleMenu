@@ -5,13 +5,17 @@
       "scale" : "1x"
     },
     {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
       "idiom" : "iphone",
       "scale" : "1x"
     },
     {
       "idiom" : "iphone",
       "scale" : "2x",
-      "filename" : "robot icon.png"
+      "filename" : "robotIcon.png"
     },
     {
       "idiom" : "iphone",

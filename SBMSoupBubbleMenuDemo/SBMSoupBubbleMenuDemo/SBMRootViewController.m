@@ -49,8 +49,11 @@
 
 - (void)createBubbleMenu
 {
-    NSArray *iconNames = @[@"frogIcon", @"robotIcon", @"shopIcon", @"zombieIcon"];
-    _soupBubbleMenu = [[SBMSoupBubbleMenu alloc] initWithIconNames:iconNames step:90 inView:self.view];
+    NSArray *iconNames = @[@"robotIcon", @"PenIcon", @"presentBox", @"stoneIcon"];
+    _soupBubbleMenu = [[SBMSoupBubbleMenu alloc] initWithIconNames:iconNames
+                                                              step:90
+                                                         tintColor:[UIColor colorWithRed:0.856 green:0.523 blue:0.902 alpha:1.000]
+                                                            inView:self.view];
     _soupBubbleMenu.frame = CGRectMake(120, 120, _soupBubbleMenu.frame.size.width, _soupBubbleMenu.frame.size.height);
     _soupBubbleMenu.delegate = self;
 }
