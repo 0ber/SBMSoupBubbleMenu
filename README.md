@@ -5,6 +5,17 @@ menu for ios
 
 ![GIF](https://github.com/ober01/SBMSoupBubbleMenu/blob/master/ScreenShot/SoupBubbleWithoutIcons.gif)
 
+
+## Requirements
+* Xcode 5 or higher
+* Apple LLVM compiler
+* iOS 6.0 or higher
+* ARC
+
+## Demo
+
+Build and run the `SBMSoupBubbleMenuDemo` project in Xcode to see `SBMSoupBubbleMenu` in action. 
+
 ## Manual Install
 
 All you need to do is drop `SBMSoupBubbleMenu` files into your project, and add `#include "SBMSoupBubbleMenu.h"` to the top of classes that will use it.
