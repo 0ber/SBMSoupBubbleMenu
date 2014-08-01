@@ -1,9 +1,13 @@
 SBMSoupBubbleMenu
 =================
 
-menu for ios
+ SBMSoupBubbleMenu without icons  | SBMSoupBubbleMenu with icons
+------------- | -------------
+<img src="https://github.com/ober01/SBMSoupBubbleMenu/blob/master/ScreenShot/SoupBubbleWithoutIcons.gif" alt="MenuWithoutIcons" width="316" height="490" />  | <img src="https://github.com/ober01/SBMSoupBubbleMenu/blob/master/ScreenShot/SoupBubbleWithIcons.gif" alt="MenuWithIcons" width="316" height="490" />
 
-![GIF](https://github.com/ober01/SBMSoupBubbleMenu/blob/master/ScreenShot/SoupBubbleWithoutIcons.gif)
+
+
+
 
 
 ## Requirements
