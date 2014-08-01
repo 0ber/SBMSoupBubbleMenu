@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA1E0D76198B651F001FB684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1E0D75198B651F001FB684 /* Foundation.framework */; };
+		FA1E0D78198B651F001FB684 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1E0D77198B651F001FB684 /* CoreGraphics.framework */; };
+		FA1E0D7A198B651F001FB684 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1E0D79198B651F001FB684 /* UIKit.framework */; };
+		FA1E0D80198B651F001FB684 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA1E0D7E198B651F001FB684 /* InfoPlist.strings */; };
+		FA1E0D82198B651F001FB684 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E0D81198B651F001FB684 /* main.m */; };
+		FA1E0D86198B651F001FB684 /* SBMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E0D85198B651F001FB684 /* SBMAppDelegate.m */; };
+		FA1E0D89198B651F001FB684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1E0D87198B651F001FB684 /* Main.storyboard */; };
+		FA1E0D8F198B651F001FB684 /* SBMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E0D8E198B651F001FB684 /* SBMRootViewController.m */; };
+		FA1E0D91198B651F001FB684 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1E0D90198B651F001FB684 /* Images.xcassets */; };
+		FA1E0D98198B651F001FB684 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1E0D97198B651F001FB684 /* XCTest.framework */; };
+		FA1E0D99198B651F001FB684 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1E0D75198B651F001FB684 /* Foundation.framework */; };
+		FA1E0D9A198B651F001FB684 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1E0D79198B651F001FB684 /* UIKit.framework */; };
+		FA1E0DA2198B651F001FB684 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA1E0DA0198B651F001FB684 /* InfoPlist.strings */; };
+		FA1E0DA4198B651F001FB684 /* SBMSoupBubbleMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E0DA3198B651F001FB684 /* SBMSoupBubbleMenuDemoTests.m */; };
+		FA1E0DB9198B6577001FB684 /* SBMSoupBubbleDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E0DB0198B6577001FB684 /* SBMSoupBubbleDataSource.m */; };
+		FA1E0DBA198B6577001FB684 /* SBMSoupBubbleMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E0DB2198B6577001FB684 /* SBMSoupBubbleMenu.m */; };
+		FA1E0DBB198B6577001FB684 /* SBMSoupBubbleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E0DB5198B6577001FB684 /* SBMSoupBubbleButton.m */; };
+		FA1E0DBC198B6577001FB684 /* UIImageView+AnimationCompletion.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E0DB8198B6577001FB684 /* UIImageView+AnimationCompletion.m */; };
+		FA1E0DC4198B6601001FB684 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = FA1E0DBF198B6601001FB684 /* LICENSE.md */; };
+		FA1E0DC5198B6601001FB684 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FA1E0DC0198B6601001FB684 /* README.md */; };
+		FA1E0DC6198B6601001FB684 /* SKBounceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E0DC3198B6601001FB684 /* SKBounceAnimation.m */; };
+		FA1E0DCB198B665F001FB684 /* UIIMage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E0DCA198B665F001FB684 /* UIIMage+Color.m */; };
+		FA1E0DCF198B671C001FB684 /* SBMExplosionSoupBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1E0DCE198B671C001FB684 /* SBMExplosionSoupBubble.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA1E0D9B198B651F001FB684 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1E0D6A198B651F001FB684 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1E0D71198B651F001FB684;
+			remoteInfo = SBMSoupBubbleMenuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA1E0D72198B651F001FB684 /* SBMSoupBubbleMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SBMSoupBubbleMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1E0D75198B651F001FB684 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA1E0D77198B651F001FB684 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA1E0D79198B651F001FB684 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA1E0D7D198B651F001FB684 /* SBMSoupBubbleMenuDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBMSoupBubbleMenuDemo-Info.plist"; sourceTree = "<group>"; };
+		FA1E0D7F198B651F001FB684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA1E0D81198B651F001FB684 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA1E0D83198B651F001FB684 /* SBMSoupBubbleMenuDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SBMSoupBubbleMenuDemo-Prefix.pch"; sourceTree = "<group>"; };
+		FA1E0D84198B651F001FB684 /* SBMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBMAppDelegate.h; sourceTree = "<group>"; };
+		FA1E0D85198B651F001FB684 /* SBMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBMAppDelegate.m; sourceTree = "<group>"; };
+		FA1E0D88198B651F001FB684 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA1E0D8D198B651F001FB684 /* SBMRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBMRootViewController.h; sourceTree = "<group>"; };
+		FA1E0D8E198B651F001FB684 /* SBMRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBMRootViewController.m; sourceTree = "<group>"; };
+		FA1E0D90198B651F001FB684 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA1E0D96198B651F001FB684 /* SBMSoupBubbleMenuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SBMSoupBubbleMenuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1E0D97198B651F001FB684 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA1E0D9F198B651F001FB684 /* SBMSoupBubbleMenuDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SBMSoupBubbleMenuDemoTests-Info.plist"; sourceTree = "<group>"; };
+		FA1E0DA1198B651F001FB684 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA1E0DA3198B651F001FB684 /* SBMSoupBubbleMenuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBMSoupBubbleMenuDemoTests.m; sourceTree = "<group>"; };
+		FA1E0DAF198B6577001FB684 /* SBMSoupBubbleDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBMSoupBubbleDataSource.h; sourceTree = "<group>"; };
+		FA1E0DB0198B6577001FB684 /* SBMSoupBubbleDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBMSoupBubbleDataSource.m; sourceTree = "<group>"; };
+		FA1E0DB1198B6577001FB684 /* SBMSoupBubbleMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBMSoupBubbleMenu.h; sourceTree = "<group>"; };
+		FA1E0DB2198B6577001FB684 /* SBMSoupBubbleMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBMSoupBubbleMenu.m; sourceTree = "<group>"; };
+		FA1E0DB4198B6577001FB684 /* SBMSoupBubbleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBMSoupBubbleButton.h; sourceTree = "<group>"; };
+		FA1E0DB5198B6577001FB684 /* SBMSoupBubbleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBMSoupBubbleButton.m; sourceTree = "<group>"; };
+		FA1E0DB7198B6577001FB684 /* UIImageView+AnimationCompletion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+AnimationCompletion.h"; sourceTree = "<group>"; };
+		FA1E0DB8198B6577001FB684 /* UIImageView+AnimationCompletion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+AnimationCompletion.m"; sourceTree = "<group>"; };
+		FA1E0DBF198B6601001FB684 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
+		FA1E0DC0198B6601001FB684 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		FA1E0DC2198B6601001FB684 /* SKBounceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKBounceAnimation.h; sourceTree = "<group>"; };
+		FA1E0DC3198B6601001FB684 /* SKBounceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKBounceAnimation.m; sourceTree = "<group>"; };
+		FA1E0DC9198B665F001FB684 /* UIIMage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIIMage+Color.h"; sourceTree = "<group>"; };
+		FA1E0DCA198B665F001FB684 /* UIIMage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIIMage+Color.m"; sourceTree = "<group>"; };
+		FA1E0DCD198B671C001FB684 /* SBMExplosionSoupBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBMExplosionSoupBubble.h; sourceTree = "<group>"; };
+		FA1E0DCE198B671C001FB684 /* SBMExplosionSoupBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBMExplosionSoupBubble.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1E0D6F198B651F001FB684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1E0D78198B651F001FB684 /* CoreGraphics.framework in Frameworks */,
+				FA1E0D7A198B651F001FB684 /* UIKit.framework in Frameworks */,
+				FA1E0D76198B651F001FB684 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1E0D93198B651F001FB684 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1E0D98198B651F001FB684 /* XCTest.framework in Frameworks */,
+				FA1E0D9A198B651F001FB684 /* UIKit.framework in Frameworks */,
+				FA1E0D99198B651F001FB684 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA1E0D69198B651F001FB684 = {
+			isa = PBXGroup;
+			children = (
+				FA1E0DBD198B65C5001FB684 /* Libs */,
+				FA1E0DAD198B6556001FB684 /* SBMSoupBubbleMenu */,
+				FA1E0D7B198B651F001FB684 /* SBMSoupBubbleMenuDemo */,
+				FA1E0D9D198B651F001FB684 /* SBMSoupBubbleMenuDemoTests */,
+				FA1E0D74198B651F001FB684 /* Frameworks */,
+				FA1E0D73198B651F001FB684 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1E0D73198B651F001FB684 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0D72198B651F001FB684 /* SBMSoupBubbleMenuDemo.app */,
+				FA1E0D96198B651F001FB684 /* SBMSoupBubbleMenuDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1E0D74198B651F001FB684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0D75198B651F001FB684 /* Foundation.framework */,
+				FA1E0D77198B651F001FB684 /* CoreGraphics.framework */,
+				FA1E0D79198B651F001FB684 /* UIKit.framework */,
+				FA1E0D97198B651F001FB684 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA1E0D7B198B651F001FB684 /* SBMSoupBubbleMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0D84198B651F001FB684 /* SBMAppDelegate.h */,
+				FA1E0D85198B651F001FB684 /* SBMAppDelegate.m */,
+				FA1E0D87198B651F001FB684 /* Main.storyboard */,
+				FA1E0D8D198B651F001FB684 /* SBMRootViewController.h */,
+				FA1E0D8E198B651F001FB684 /* SBMRootViewController.m */,
+				FA1E0D90198B651F001FB684 /* Images.xcassets */,
+				FA1E0D7C198B651F001FB684 /* Supporting Files */,
+			);
+			path = SBMSoupBubbleMenuDemo;
+			sourceTree = "<group>";
+		};
+		FA1E0D7C198B651F001FB684 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0D7D198B651F001FB684 /* SBMSoupBubbleMenuDemo-Info.plist */,
+				FA1E0D7E198B651F001FB684 /* InfoPlist.strings */,
+				FA1E0D81198B651F001FB684 /* main.m */,
+				FA1E0D83198B651F001FB684 /* SBMSoupBubbleMenuDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA1E0D9D198B651F001FB684 /* SBMSoupBubbleMenuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0DA3198B651F001FB684 /* SBMSoupBubbleMenuDemoTests.m */,
+				FA1E0D9E198B651F001FB684 /* Supporting Files */,
+			);
+			path = SBMSoupBubbleMenuDemoTests;
+			sourceTree = "<group>";
+		};
+		FA1E0D9E198B651F001FB684 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0D9F198B651F001FB684 /* SBMSoupBubbleMenuDemoTests-Info.plist */,
+				FA1E0DA0198B651F001FB684 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA1E0DAD198B6556001FB684 /* SBMSoupBubbleMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0DCC198B671C001FB684 /* ExplosionSoupBubble */,
+				FA1E0DAE198B6577001FB684 /* DataSource */,
+				FA1E0DB1198B6577001FB684 /* SBMSoupBubbleMenu.h */,
+				FA1E0DB2198B6577001FB684 /* SBMSoupBubbleMenu.m */,
+				FA1E0DB3198B6577001FB684 /* SoupBubbleButton */,
+				FA1E0DB6198B6577001FB684 /* UIImageView+AnimationCompletion */,
+			);
+			path = SBMSoupBubbleMenu;
+			sourceTree = "<group>";
+		};
+		FA1E0DAE198B6577001FB684 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0DAF198B6577001FB684 /* SBMSoupBubbleDataSource.h */,
+				FA1E0DB0198B6577001FB684 /* SBMSoupBubbleDataSource.m */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		FA1E0DB3198B6577001FB684 /* SoupBubbleButton */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0DB4198B6577001FB684 /* SBMSoupBubbleButton.h */,
+				FA1E0DB5198B6577001FB684 /* SBMSoupBubbleButton.m */,
+			);
+			path = SoupBubbleButton;
+			sourceTree = "<group>";
+		};
+		FA1E0DB6198B6577001FB684 /* UIImageView+AnimationCompletion */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0DB7198B6577001FB684 /* UIImageView+AnimationCompletion.h */,
+				FA1E0DB8198B6577001FB684 /* UIImageView+AnimationCompletion.m */,
+			);
+			path = "UIImageView+AnimationCompletion";
+			sourceTree = "<group>";
+		};
+		FA1E0DBD198B65C5001FB684 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0DC7198B665F001FB684 /* Categories */,
+				FA1E0DBE198B6601001FB684 /* SKBounceAnimation */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		FA1E0DBE198B6601001FB684 /* SKBounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0DBF198B6601001FB684 /* LICENSE.md */,
+				FA1E0DC0198B6601001FB684 /* README.md */,
+				FA1E0DC1198B6601001FB684 /* SKBounceAnimation */,
+			);
+			path = SKBounceAnimation;
+			sourceTree = "<group>";
+		};
+		FA1E0DC1198B6601001FB684 /* SKBounceAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0DC2198B6601001FB684 /* SKBounceAnimation.h */,
+				FA1E0DC3198B6601001FB684 /* SKBounceAnimation.m */,
+			);
+			path = SKBounceAnimation;
+			sourceTree = "<group>";
+		};
+		FA1E0DC7198B665F001FB684 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0DC8198B665F001FB684 /* UIImage+color */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		FA1E0DC8198B665F001FB684 /* UIImage+color */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0DC9198B665F001FB684 /* UIIMage+Color.h */,
+				FA1E0DCA198B665F001FB684 /* UIIMage+Color.m */,
+			);
+			path = "UIImage+color";
+			sourceTree = "<group>";
+		};
+		FA1E0DCC198B671C001FB684 /* ExplosionSoupBubble */ = {
+			isa = PBXGroup;
+			children = (
+				FA1E0DCD198B671C001FB684 /* SBMExplosionSoupBubble.h */,
+				FA1E0DCE198B671C001FB684 /* SBMExplosionSoupBubble.m */,
+			);
+			path = ExplosionSoupBubble;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1E0D71198B651F001FB684 /* SBMSoupBubbleMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1E0DA7198B651F001FB684 /* Build configuration list for PBXNativeTarget "SBMSoupBubbleMenuDemo" */;
+			buildPhases = (
+				FA1E0D6E198B651F001FB684 /* Sources */,
+				FA1E0D6F198B651F001FB684 /* Frameworks */,
+				FA1E0D70198B651F001FB684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SBMSoupBubbleMenuDemo;
+			productName = SBMSoupBubbleMenuDemo;
+			productReference = FA1E0D72198B651F001FB684 /* SBMSoupBubbleMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA1E0D95198B651F001FB684 /* SBMSoupBubbleMenuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1E0DAA198B651F001FB684 /* Build configuration list for PBXNativeTarget "SBMSoupBubbleMenuDemoTests" */;
+			buildPhases = (
+				FA1E0D92198B651F001FB684 /* Sources */,
+				FA1E0D93198B651F001FB684 /* Frameworks */,
+				FA1E0D94198B651F001FB684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1E0D9C198B651F001FB684 /* PBXTargetDependency */,
+			);
+			name = SBMSoupBubbleMenuDemoTests;
+			productName = SBMSoupBubbleMenuDemoTests;
+			productReference = FA1E0D96198B651F001FB684 /* SBMSoupBubbleMenuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1E0D6A198B651F001FB684 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SBM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alex Kalinkin";
+				TargetAttributes = {
+					FA1E0D95198B651F001FB684 = {
+						TestTargetID = FA1E0D71198B651F001FB684;
+					};
+				};
+			};
+			buildConfigurationList = FA1E0D6D198B651F001FB684 /* Build configuration list for PBXProject "SBMSoupBubbleMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA1E0D69198B651F001FB684;
+			productRefGroup = FA1E0D73198B651F001FB684 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1E0D71198B651F001FB684 /* SBMSoupBubbleMenuDemo */,
+				FA1E0D95198B651F001FB684 /* SBMSoupBubbleMenuDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1E0D70198B651F001FB684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1E0DC5198B6601001FB684 /* README.md in Resources */,
+				FA1E0DC4198B6601001FB684 /* LICENSE.md in Resources */,
+				FA1E0D91198B651F001FB684 /* Images.xcassets in Resources */,
+				FA1E0D89198B651F001FB684 /* Main.storyboard in Resources */,
+				FA1E0D80198B651F001FB684 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1E0D94198B651F001FB684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1E0DA2198B651F001FB684 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1E0D6E198B651F001FB684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1E0DCB198B665F001FB684 /* UIIMage+Color.m in Sources */,
+				FA1E0DC6198B6601001FB684 /* SKBounceAnimation.m in Sources */,
+				FA1E0DB9198B6577001FB684 /* SBMSoupBubbleDataSource.m in Sources */,
+				FA1E0D8F198B651F001FB684 /* SBMRootViewController.m in Sources */,
+				FA1E0DBA198B6577001FB684 /* SBMSoupBubbleMenu.m in Sources */,
+				FA1E0D82198B651F001FB684 /* main.m in Sources */,
+				FA1E0DBC198B6577001FB684 /* UIImageView+AnimationCompletion.m in Sources */,
+				FA1E0D86198B651F001FB684 /* SBMAppDelegate.m in Sources */,
+				FA1E0DCF198B671C001FB684 /* SBMExplosionSoupBubble.m in Sources */,
+				FA1E0DBB198B6577001FB684 /* SBMSoupBubbleButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1E0D92198B651F001FB684 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1E0DA4198B651F001FB684 /* SBMSoupBubbleMenuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA1E0D9C198B651F001FB684 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA1E0D71198B651F001FB684 /* SBMSoupBubbleMenuDemo */;
+			targetProxy = FA1E0D9B198B651F001FB684 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA1E0D7E198B651F001FB684 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1E0D7F198B651F001FB684 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA1E0D87198B651F001FB684 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1E0D88198B651F001FB684 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA1E0DA0198B651F001FB684 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1E0DA1198B651F001FB684 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA1E0DA5198B651F001FB684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA1E0DA6198B651F001FB684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA1E0DA8198B651F001FB684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBMSoupBubbleMenuDemo/SBMSoupBubbleMenuDemo-Prefix.pch";
+				INFOPLIST_FILE = "SBMSoupBubbleMenuDemo/SBMSoupBubbleMenuDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA1E0DA9198B651F001FB684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBMSoupBubbleMenuDemo/SBMSoupBubbleMenuDemo-Prefix.pch";
+				INFOPLIST_FILE = "SBMSoupBubbleMenuDemo/SBMSoupBubbleMenuDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA1E0DAB198B651F001FB684 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SBMSoupBubbleMenuDemo.app/SBMSoupBubbleMenuDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBMSoupBubbleMenuDemo/SBMSoupBubbleMenuDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SBMSoupBubbleMenuDemoTests/SBMSoupBubbleMenuDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA1E0DAC198B651F001FB684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SBMSoupBubbleMenuDemo.app/SBMSoupBubbleMenuDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SBMSoupBubbleMenuDemo/SBMSoupBubbleMenuDemo-Prefix.pch";
+				INFOPLIST_FILE = "SBMSoupBubbleMenuDemoTests/SBMSoupBubbleMenuDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1E0D6D198B651F001FB684 /* Build configuration list for PBXProject "SBMSoupBubbleMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1E0DA5198B651F001FB684 /* Debug */,
+				FA1E0DA6198B651F001FB684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1E0DA7198B651F001FB684 /* Build configuration list for PBXNativeTarget "SBMSoupBubbleMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1E0DA8198B651F001FB684 /* Debug */,
+				FA1E0DA9198B651F001FB684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA1E0DAA198B651F001FB684 /* Build configuration list for PBXNativeTarget "SBMSoupBubbleMenuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1E0DAB198B651F001FB684 /* Debug */,
+				FA1E0DAC198B651F001FB684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA1E0D6A198B651F001FB684 /* Project object */;
+}
