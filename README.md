@@ -20,6 +20,21 @@ Build and run the `SBMSoupBubbleMenuDemo` project in Xcode to see `SBMSoupBubble
 
 All you need to do is drop `SBMSoupBubbleMenu` files into your project, and add `#include "SBMSoupBubbleMenu.h"` to the top of classes that will use it.
 
+## Example
+``` objective-c
+// create icons names array
+NSArray *iconNames = @[@"frogIcon", @"robotIcon", @"shopIcon", @"zombieIcon"];
+    
+//create soupBubbleMenu
+SBMSoupBubbleMenu *soupBubbleMenu = [[SBMSoupBubbleMenu alloc] initWithIconNames:iconNames 
+                                                                            step:90 
+                                                                          inView:self.view];
+soupBubbleMenu.delegate = self;
+    
+// show menu
+[_soupBubbleMenu show];
+```
+
 
 ## Contact
 
