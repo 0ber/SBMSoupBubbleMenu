@@ -5,6 +5,12 @@ menu for ios
 
 ![GIF](https://github.com/ober01/SBMSoupBubbleMenu/blob/master/ScreenShot/SoupBubbleWithoutIcons.gif)
 
+## Contact
+
+[![AlexKalinkin.com](https://github.com/ober01/SBMSoupBubbleMenu/blob/master/ScreenShot/logoA.png)](http://www.alexkalinkin.com)
+
+My site AlexKalinkin.com
+
 
 ## License
 
