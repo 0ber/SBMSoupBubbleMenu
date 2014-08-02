@@ -7,7 +7,7 @@ SBMSoupBubbleMenu
 
 
 ## Video Demo
-[video example](http://youtu.be/SGhjGoIFWTw.)
+[video example](https://www.youtube.com/watch?v=SGhjGoIFWTw&feature=youtu.be)
  
 
 
